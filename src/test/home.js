@@ -1,8 +1,8 @@
 import React from 'react'
-import axios from 'axios'
 import AppModal from './modal'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Table } from 'reactstrap'
+import json from '../Test JSON.json'
 
 class App extends React.Component {
   constructor(props)
@@ -25,11 +25,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-  	axios.get("/json/Test JSON.json").then(res=>{
-  		this.setState({dataOk:res.data.ok, testData:res.data.members})
-  	}).catch(err=>{
-  		console.log(err)
-  	})
+  		this.setState({dataOk:json.ok, testData:json.members})  	
   }
 
   render() {
