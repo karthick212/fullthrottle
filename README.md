@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Description
+This project displays activity periods for a particular user. We can expand the JSON file to get user activity periods. These are achieved by browsing the json file on the test site. Load the JSON file and press the Submit button to view the list of users. On clicking on any user, a modal should open which displays
+all the time ranges. We can be filtered by two different dates.
 
 ## Available Scripts
 
