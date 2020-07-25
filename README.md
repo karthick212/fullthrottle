@@ -3,6 +3,9 @@
 This project displays activity periods for a particular user. We can expand the JSON file to get user activity periods. These are achieved by browsing the json file on the test site. Load the JSON file and press the Submit button to view the list of users. On clicking on any user, a modal should open which displays
 all the time ranges. We can be filtered by two different dates. In addition, we can find activity periods with different time zones. It works with Indian Standard Time using Time Zone Check Box.
 
+Live Demo URL : http://18.213.86.227/Fullthrottle/
+Mock API : http://18.213.86.227:4000/advanced/fullthrottle/json
+
 ## Available Scripts
 
 In the project directory, you can run:
