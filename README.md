@@ -4,6 +4,7 @@ This project displays activity periods for a particular user. We can expand the 
 all the time ranges. We can be filtered by two different dates. In addition, we can find activity periods with different time zones. It works with Indian Standard Time using Time Zone Check Box.
 
 Live Demo URL : http://18.213.86.227/Fullthrottle/
+
 Mock API : http://18.213.86.227:4000/advanced/fullthrottle/json
 
 ## Available Scripts
